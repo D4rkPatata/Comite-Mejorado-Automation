@@ -1,0 +1,47 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secretos / configuración local
+.env
+.env.*
+*.local
+
+# Excel: archivos temporales/lock de Office
+~$*
+*.tmp
+.~lock.*
+
+# Archivos de datos Excel (en cualquier carpeta)
+*.xlsx
+*.xlsm
+*.xls
+
+# Carpetas input/output: se versiona la carpeta, no su contenido
+input/*
+!input/.gitkeep
+ouput/*
+!ouput/.gitkeep
+output/*
+!output/.gitkeep
+
+# Logs
+*.log
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
